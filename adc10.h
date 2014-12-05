@@ -5,12 +5,13 @@
  *
  *      Description: This library allows the user to
  *      directly convert an analog signal to a hexidecimal
- *      value using the ADC10 on the MSP430.
+ *      value using the ADC10 on the MSP430. The readADC() method
+ *      takes in 1 paramter, the pin that is to be converted.
  */
 
 #ifndef ADC10_H_
 #define ADC10_H_
 
-extern int readADC(int pin);
+int readADC(int pin);
 
 #endif /* ADC10_H_ */

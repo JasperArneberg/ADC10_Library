@@ -48,5 +48,3 @@ int readADC(int pin) {
 	while(ADC10CTL1 & ADC10BUSY);							// Wait for conversion to complete
 	return ADC10MEM;										// collect that 10-bit value
 }
-
-
