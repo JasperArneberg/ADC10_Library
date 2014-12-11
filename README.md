@@ -21,7 +21,7 @@ void main() {
 	int signal4;
 
 	void initMSP430();
-	IFG1=0; 													      // clear interrupt flag1
+	IFG1=0; 										// clear interrupt flag1
 	WDTCTL = WDTPW + WDTHOLD;								// disable WDT
 	P1DIR |= BIT0 | BIT6;									// set leds to output
 
